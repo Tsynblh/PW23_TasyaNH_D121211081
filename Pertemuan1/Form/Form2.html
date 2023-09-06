@@ -1,1 +1,80 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, td{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    .center{
+        text-align: center;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td>
+                <label for="text">Text:</label>
+            </td>
+            <td>
+                <input type="text" name="text" id="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Password">Password:</label>
+            </td>
+            <td>
+                <input type="password" name="password" id="password">
+            </td>
+        </tr>
+        <tr>
+            <td class="center" colspan="2">
+                <label for="radio1">Radio 1</label>
+                <input type="radio" name="radio" id="radio1">
+                <label for="radio2">Radio 2</label>
+                <input type="radio" name="radio" id="radio2">
+            </td>
+        </tr>
+        <tr>
+            <td class="center" colspan="2">
+                <label for="checkbox1">checkbox 1</label>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for="checkbox1">checkbox 1</label>
+                <input type="checkbox" name="checkbox" id="checkbox2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="combobox">Combo Box:</label>
+            </td>
+            <td>
+                <select title="select" name="Opsi" id="selectbox">
+                    <option value="">Opsi 1</option>
+                    <option value="">Opsi 2</option>
+                    <option value="">Opsi 3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="textArea">Text Area:</label>
+            </td>
+            <td>
+                <textarea name="textarea" id="textArea" cols="19" rows="4"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="center" colspan="2">
+                <label for="button"></label>
+                <button>Button</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
